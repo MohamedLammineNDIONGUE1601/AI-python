@@ -19,7 +19,7 @@ les amateurs et les grands maîtres du jeu"""
 llm = ChatOpenAI(
     temperature=1,
     max_tokens=500,
-    model='gpt-40'
+    model='gpt-4o'
 )
 
 prompt = PromptTemplate(
